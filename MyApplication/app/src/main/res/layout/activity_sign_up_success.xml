@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sign_up_success_activity">
+
+    <TextView
+        android:id="@+id/welcome_for_sign_up_success_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:text="이제 이 계정은 \nconnector회원가입이\n정상적으로 되었습니다!"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/go_log_in_for_sign_up_success_button"
+        android:layout_width="297dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="96dp"
+        android:text="LOG IN하러 가기"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="@+id/welcome_for_sign_up_success_tv"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/welcome_for_sign_up_success_tv"
+        app:layout_constraintTop_toBottomOf="@+id/welcome_for_sign_up_success_tv" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Finding_change_pw_activity">
+    <EditText
+        android:id="@+id/pw_check_for_finding_change_pw_scan"
+        android:layout_width="274dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="24dp"
+        android:ems="6"
+        android:hint="비밀번호 입력"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guide_email_for_finding_email_tv" />
+
+    <EditText
+        android:id="@+id/pw_for_finding_change_pw_scan"
+        android:layout_width="274dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="68dp"
+        android:ems="6"
+        android:hint="비밀번호 확인"
+        android:inputType="numberPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guide_email_for_finding_email_tv" />
+
+    <TextView
+        android:id="@+id/finding_change_pw_for_finding_change_pw_tv"
+        android:layout_width="196dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="96dp"
+        android:text="Reset\npassword"
+        android:textColor="#009688"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/pw_check_for_finding_change_pw_scan"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/go_finding_change_pw_for_finding_email_button"
+        android:layout_width="112dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:text="NEXT >"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="@+id/pw_for_finding_change_pw_scan"
+        app:layout_constraintTop_toBottomOf="@+id/pw_for_finding_change_pw_scan" />
+
+    <TextView
+        android:id="@+id/guide_email_for_finding_email_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="비밀번호를 바꾸세요."
+        android:textSize="14dp"
+        app:layout_constraintStart_toStartOf="@+id/pw_check_for_finding_change_pw_scan"
+        app:layout_constraintTop_toBottomOf="@+id/finding_change_pw_for_finding_change_pw_tv" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
