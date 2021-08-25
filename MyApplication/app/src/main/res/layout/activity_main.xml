@@ -18,7 +18,7 @@
                     android:id="@+id/go_sign_up_for_main_tv"
                     android:layout_width="152dp"
                     android:layout_height="21dp"
-                    android:text="connector 계정을 만들어보세요!"
+                    android:text="connector 계정을 만들어보세요!!"
                     android:textSize="10sp"
                     app:layout_constraintBottom_toBottomOf="@+id/go_sign_up_for_main_button"
                     app:layout_constraintEnd_toStartOf="@+id/go_sign_up_for_main_button"
